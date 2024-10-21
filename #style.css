@@ -1,0 +1,27 @@
+:root{
+    --fundo:#c45454;
+    --cor-frente:#661b1b;
+    --cor-verso:#944646;
+    --destaque:#f50c0c;
+    --preto:#000000;
+    --branco:#ffffff;   
+}
+body{
+    background-color: var(--fundo);
+    margin: 0%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--preto);
+    color: var(--branco);
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+}
+#container{
+    padding: 4rem;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}

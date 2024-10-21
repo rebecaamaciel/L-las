@@ -32,14 +32,14 @@ footer{
     margin: 1rem;
 }
 
-.comteudo-cartao{
+.conteudo-cartao{
     background-color: var(--cor-frente);
     height: 100%;
     color: var(--branco);
     text-align: center;
 }
 
-.comteudo-cartao h3{
+.conteudo-cartao h3{
     border: 1px solid var(--destaque);
     border-radius: 6rem;
     color: var(--destaque);

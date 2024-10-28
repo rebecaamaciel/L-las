@@ -81,8 +81,7 @@ criarCartao(
     
     criarCartao(
     'Bíblia',
-    'Qual o nome da mulher que foi liberta de 7 demônios pelo poder de Jesus?'',
-    'Maria Madalena')
+    'Qual o nome da mulher que foi liberta de 7 demônios pelo poder de Jesus?','Maria Madalena')
 
     criarCartao(
     'Bíblia',

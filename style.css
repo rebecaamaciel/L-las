@@ -19,6 +19,7 @@ footer{
     text-align: center;
     margin: 0%;
 }
+
 #container{
     padding: 4rem;
     display: flex;
@@ -29,30 +30,32 @@ footer{
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
     height: 20rem;
-    margin: 1rem;
+    margin: 1rem
 }
-
 .conteudo-cartao{
-    background-color: var(--destaque);
+    background-color: var(--cor-frente);
     height: 100%;
-    color: var(--branco);
+    color: #ffffff;
     text-align: center;
+    border-radius:20px;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
-
 .conteudo-cartao h3{
-    border: 1px solid var(--cor-frente);
+    border: 1px solid var(--destaque);
     border-radius: 6rem;
-    color: var(--cor-frente);
+    color: var(--destaque);
     padding: 0.5rem;
     position: absolute;
     text-align: left;
     font-size: 1.2vw;
-    
+    backface-visibility: hidden;
 }
 .conteudo-cartao p{
     margin-top: 5rem;
     padding: 2rem;
     font-size: 1.4vw;
+    
 }
 .pergunta-cartao{
     font-weight: 500;

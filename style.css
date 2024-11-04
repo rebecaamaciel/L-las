@@ -7,7 +7,7 @@
     --branco:#ffffff;   
 }
 body{
-    background-color:var(--cor-verso);
+    background-color:var(--fundo);
     margin: 0%;
 }
 footer{
